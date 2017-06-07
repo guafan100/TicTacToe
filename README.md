@@ -1,16 +1,16 @@
 # TicTacToe
 This game is a 4 * 4 Tic Tac Toe game. The player places ‘O’ and AI places ‘X’. In the hard difficulty, after player’s turn, AI uses minimax algorithm with alpha-beta pruning and evaluation function to determine its best move. A bunch of information will be printed during the algorithm. UI is designed for this game.
 
-#How to compile and run: 
+# How to compile and run: 
 
 Command line:
-/*enter src folder*/
+/* enter src folder */
 javac game/Main.java
 java game.Main
 
 Or run it in Eclipse.
 
-#Classes
+# Classes
 Main.java: UI that shows the grids on the screen and allow users to use the mouse to place symbols
 
 TicTacToe.java: the inner logic of a tic tac toe game. 
